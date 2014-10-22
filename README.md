@@ -1,18 +1,51 @@
-# WebComponents - An example with EmberJS
+# Webcomponents-emberjs-example
 
-A simple example code of WebComponents with **EmberJS**.
+This README outlines the details of collaborating on this Ember application.
 
-## Try example
+A short introduction of this app could easily go here.
 
-  You can just run ````index.html```` after cloning or you can make your own changes:
+## Prerequisites
 
-  1. Install [Node](http://nodejs.org/)
-  2. Install **Bower**.  ````npm install -g bower````
-  3. Install **Grunt**. ````npm install -g grunt-cli````
-  4. Install **http-server** if you want. ````npm install -g http-server````
-  5. Run ````npm install```` to install the required dependencies.
-  6. Run ````bower install```` to install vendor libraries.
-  7. Run ````grunt devel````.
-  8. Run ````http-server```` (default port: 8080)
-  9. Access to [http://localhost:8080/](http://localhost:8080/)
-  
+You will need the following things properly installed on your computer.
+
+* [Git](http://git-scm.com/)
+* [Node.js](http://nodejs.org/) (with NPM) and [Bower](http://bower.io/)
+
+## Installation
+
+* `git clone <repository-url>` this repository
+* change into the new directory
+* `npm install`
+* `bower install`
+
+## Running / Development
+
+* `ember server`
+* Visit your app at http://localhost:4200.
+
+### Code Generators
+
+Make use of the many generators for code, try `ember help generate` for more details
+
+### Running Tests
+
+* `ember test`
+* `ember test --server`
+
+### Building
+
+* `ember build` (development)
+* `ember build --environment production` (production)
+
+### Deploying
+
+Specify what it takes to deploy your app.
+
+## Further Reading / Useful Links
+
+* ember: http://emberjs.com/
+* ember-cli: http://www.ember-cli.com/
+* Development Browser Extensions
+  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
+  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
